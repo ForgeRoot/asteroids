@@ -13,7 +13,8 @@ def main():
                 return
         screen.fill("black")
         pygame.display.flip()
-        dt = clock.tick(60)/1000
+        time_passed = clock.tick(60)
+        dt = time_passed/1.000
         
 
 
